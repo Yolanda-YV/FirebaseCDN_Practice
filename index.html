@@ -7,5 +7,19 @@
   </head>
   <body>
     <h1>Hello World</h1>
+    <div>
+      <input type="text" id="email" placeholder="email">
+      <input type="password" id="password" placeholder="password">
+      <button id="login" onclick="login()">Login</button>
+      <button id="signup" onclick="signUp()">Signup</button>
+    </div>
   </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+  <script src="config.js"></script>
+  <script src="auth.js"></script>
+
 </html>
