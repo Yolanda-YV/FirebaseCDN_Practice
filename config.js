@@ -10,7 +10,7 @@ const firebaseConfig = {
   };
 
 // Initialize firebase
-firebaseConfig.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 // make auth firebase references
 const auth = firebase.auth();
